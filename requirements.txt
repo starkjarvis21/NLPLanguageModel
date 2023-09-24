@@ -1,5 +1,4 @@
 keras==2.13.1
 tensorflow-cpu==2.5.3
 numpy
-protobuf==3.20
 protoc==3.19.0.
