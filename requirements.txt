@@ -1,4 +1,10 @@
 keras
+streamlit
+nltk
 tensorflow-cpu
 numpy
 gensim
+sklearn
+scikit-learn
+tensorboard
+tensorboardx
