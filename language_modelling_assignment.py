@@ -13,6 +13,7 @@ R204651S **bold text**
 import random
 import re
 import numpy as np
+import pickle
 import keras
 import gensim
 from keras.preprocessing.text import Tokenizer
