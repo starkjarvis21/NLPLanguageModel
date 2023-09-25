@@ -19,16 +19,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # Load the previously saved model
 model = load_model('best_model2.h5')
 
-st.title('Next Word Prediction in shona')
+st.title('Next Shona Word Predictor')
 #st.button("https://colab.research.google.com/drive/1wjFB3dIQ5Anr5oXmX5BJIo4Q_TtLkSP4#scrollTo=Zx7NZs1rG9gq")
 
-link = '[Colab notebook](https://colab.research.google.com/drive/1j0JQY_88OQe9_W-WlsSrqrkVoOghfhJm?usp=sharing)'
-st.markdown(link, unsafe_allow_html=True)
 
-
-link1 = '[Github](https://github.com/victoryeovil/next_shona_word_prediction)'
-st.markdown(link1, unsafe_allow_html=True)
-# loading
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
