@@ -24,10 +24,6 @@ from sklearn.model_selection import train_test_split
 from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-
 
 # read file
 file = open("shona.txt","r")
