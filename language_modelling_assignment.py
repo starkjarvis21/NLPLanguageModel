@@ -14,6 +14,7 @@ import random
 import re
 import numpy as np
 import keras
+import gensim
 from keras.preprocessing.text import Tokenizer
 from gensim.models import Word2Vec
 from keras.models import Sequential
